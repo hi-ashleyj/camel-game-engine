@@ -1,5 +1,5 @@
 {
-	"name": "camel-game-engine",
+	"name": "@hi-ashleyj/camel",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
@@ -38,5 +38,10 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@threlte/core": "^6.0.3",
+		"@threlte/extras": "^5.1.0",
+		"three": "^0.155.0"
+	}
 }
