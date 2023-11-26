@@ -38,12 +38,10 @@
     let wiw = 0;
     let wih = 0;
 
-    let threlteCtx;
-
 </script>
 
 <div class="game" style:background-color={background}>
-    <Canvas size={{ width: width, height: height }} frameloop="always" bind:ctx={threlteCtx}>
+    <Canvas size={{ width: width, height: height }} frameloop="always">
         <slot />
     </Canvas>
 </div>
